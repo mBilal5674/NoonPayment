@@ -10,9 +10,6 @@ let package = Package(
         .library(
             name: "NoonPaymentSDK",
             targets: ["NoonPaymentSDK"]),
-    ],dependencies: [
-        // Dependencies declare other packages that this package depends on.
-         .package(url: "https://github.com/mBilal5674/NoonPayment", from: "1.0.2"),
     ],
     targets: [
         .binaryTarget(name: "NoonPaymentSDK", url: "https://docs-stg.noonpayments.com/assets/integration/NoonPaymentSDK.xcframework.zip?v=20.05.2024", checksum: "b3d709c2ca5678e65110d03f435b570a980261647af5047ada37b938ca45c22e")
