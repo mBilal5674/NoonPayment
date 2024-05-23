@@ -15,9 +15,12 @@ let package = Package(
 //        .binaryTarget(name: "NoonPaymentSDK", url: "https://docs-stg.noonpayments.com/assets/integration/NoonPaymentSDK.xcframework.zip?v=20.05.2024", checksum: "b3d709c2ca5678e65110d03f435b570a980261647af5047ada37b938ca45c22e")
 //        ]
     targets: [
-            .target(
-        name: "NoonPaymentSDK",
-              dependencies:[])
+        .binaryTarget(
+                    name: "NoonPaymentSDK",
+                    path: "NoonPaymentSDK.xcframework")
               
     ]
+    
+        
+            
 )
